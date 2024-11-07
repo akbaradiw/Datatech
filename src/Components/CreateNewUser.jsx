@@ -10,7 +10,7 @@ const CreateNewUser = ({ createUser, setCreateUser, handleCreateUser }) => {
           <div className="bg-white p-6 rounded max-w-xs w-full">
             <input
               type="text"
-              placeholder="Enter GitHub Username"
+              placeholder="Enter Username"
               value={createUser.username}
               onChange={(e) =>
                 setCreateUser({ ...createUser, username: e.target.value })
